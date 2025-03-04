@@ -1,0 +1,48 @@
+body{
+  font-family:arial;
+}
+p{
+}
+.todos-input{
+  display: grid;
+  grid-template-columns: 200px 200px 100px;
+  column-gap: 10px;
+  margin-bottom: 10px;
+
+}
+.todo-input{
+  font-size:20px;
+}
+.todo-input,.time{
+  font-size:17px;
+  padding: 6px;
+  cursor: pointer;
+}
+.add-button{
+  font-family: Arial;
+  font-size:15px;
+  background-color: rgb(20, 165, 20);
+  border: none;
+  color:white;
+  cursor: pointer;
+}
+.js-todo-render{
+  display: grid;
+  grid-template-columns: 200px 200px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.due-todo,.due-date{
+  font-size:17px;
+  padding: 6px;
+  cursor: pointer;
+}
+.delete-button{
+  font-family: Arial;
+  font-size:15px;
+  background-color: rgb(211, 0, 0);
+  border: none;
+  color:white;
+  cursor: pointer;
+}
+}
