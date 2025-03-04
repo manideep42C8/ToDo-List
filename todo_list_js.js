@@ -3,6 +3,7 @@ renderToDoList();
 function addToDo(){
   let toDo=document.querySelector('.js-todo-input');
   let name=toDo.value;
+  
   let time=document.querySelector('.js-time');
   let date=time.value;
 
@@ -16,6 +17,7 @@ function addToDo(){
     date
   });
   toDo.value='';
+  time.value='';
   console.log(toDoList);
   localStorage.setItem('toDoLis',JSON.stringify(toDoList));
 
